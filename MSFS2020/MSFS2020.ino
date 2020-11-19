@@ -2,17 +2,18 @@
 #include <Gamepad.h>
 #include <Encoder.h>
 
-
 //Initializing a Gamepad
 Gamepad gp;
 
+//Initializing a Encoder
 Encoder altitude(5, 6);
 
+//Setting gamepad Buttons
 int button1 = 0;
 int button2 = 1;
 
 void setup() {
-
+//Pin modes
 pinMode(5, INPUT);
 pinMode(6, INPUT);
 
