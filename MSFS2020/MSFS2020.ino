@@ -25,13 +25,15 @@ long right = -999;
 
 void loop() {
   
-  if (9 == true)
+  if (9 == true){
 	  
 	gp.setButtonState(button3, true);
 	
 	else 
 		
 	gp.setButtonState(button3; false);
+	
+  }
   
   long newright;
   newright = altitude.read();
@@ -53,7 +55,7 @@ void loop() {
 		 
       gp.setButtonState(button2, false);
 
-      newright = right
+     
     
   }
   
