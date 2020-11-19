@@ -5,10 +5,10 @@
 //Initializing a Gamepad
 Gamepad gp;
 
-//Initializing a Encoder
+//Initializing a Encoder, the numbers are the pin in the hardware
 Encoder altitude(5, 6);
 
-//Setting gamepad Buttons
+//Setting gamepad buttons to windows
 int button1 = 0;
 int button2 = 1;
 
