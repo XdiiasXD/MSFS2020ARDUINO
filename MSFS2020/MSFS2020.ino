@@ -29,7 +29,7 @@ void loop() {
 	  
 	gp.setButtonState(button3, true);
 	
-	else 
+  }	else {
 		
 	gp.setButtonState(button3; false);
 	
