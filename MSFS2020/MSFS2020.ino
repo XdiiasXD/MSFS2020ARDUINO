@@ -13,6 +13,9 @@ int button2 = 1;
 
 void setup() {
 
+pinMode(5, INPUT);
+pinMode(6, INPUT);
+
 long right = -999;
 
 }
